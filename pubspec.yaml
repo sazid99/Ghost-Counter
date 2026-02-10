@@ -1,0 +1,44 @@
+name: ghost_counter
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  #bloc:
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.8
+
+  #go_router:
+  go_router: ^17.1.0
+
+  #firebase:
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  google_sign_in: ^7.2.0
+
+  #dependency injection:
+  get_it:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
